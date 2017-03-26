@@ -11,7 +11,7 @@ using namespace boost;
 int main(int, char* [])
 {
 	//Creates a graph object with 6 vertices and 5 edges.
-	adjacency_list <vecS, vecS, undirectedS> G(6);
+	adjacency_list <vecS, vecS, undirectedS> G;
 	add_edge(0, 1, G);
 	add_edge(1, 4, G);
 	add_edge(0, 4, G);

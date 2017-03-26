@@ -21,7 +21,7 @@ int main(int, char* [])
 	//Creates a graph object with 11 vertices and 11 edges
 	typedef adjacency_list<vecS, vecS, undirectedS,
 	  no_property, property<edge_component_t, std::size_t> >graph_t;
-	graph_t g(9);
+	graph_t g;
 	add_edge(0, 1, g);
 	add_edge(1, 2, g);
 	add_edge(2, 0, g);

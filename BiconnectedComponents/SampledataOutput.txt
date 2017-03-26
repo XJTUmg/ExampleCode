@@ -1,0 +1,19 @@
+Total number of biconnected components 7
+Edge 1 -- 2 is in biconnected component 4
+Edge 2 -- 3 is in biconnected component 3
+Edge 3 -- 4 is in biconnected component 3
+Edge 2 -- 5 is in biconnected component 3
+Edge 3 -- 6 is in biconnected component 3
+Edge 4 -- 9 is in biconnected component 3
+Edge 5 -- 6 is in biconnected component 3
+Edge 6 -- 9 is in biconnected component 3
+Edge 7 -- 8 is in biconnected component 0
+Edge 8 -- 5 is in biconnected component 1
+Edge 5 -- 10 is in biconnected component 3
+Edge 6 -- 11 is in biconnected component 3
+Edge 9 -- 12 is in biconnected component 3
+Edge 10 -- 11 is in biconnected component 3
+Edge 11 -- 12 is in biconnected component 3
+Edge 10 -- 13 is in biconnected component 2
+Edge 14 -- 15 is in biconnected component 5
+Edge 16 -- 17 is in biconnected component 6
