@@ -22,11 +22,11 @@ Then, run it.
 
 # Figures of examples
 **Connected components**:  
-<img src="/images/examples/cc.png" width="335" height="335" />
+<img src="/images/examples/cc.png" width="335" height="335" />  
 **Strongly connected components**:  
-<img src="/images/examples/scc.png" width="442" height="359" />
+<img src="/images/examples/scc.png" width="442" height="359" />  
 **Biconnected components**:  
-<img src="/images/examples/bcc.png" width="232" height="356" />
+<img src="/images/examples/bcc.png" width="232" height="356" />  
 
 # Figures of pgRouting Sample Data
 **Connected components**:  
