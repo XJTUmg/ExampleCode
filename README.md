@@ -22,16 +22,16 @@ Then, run it.
 
 # Figures of examples
 **Connected components**:  
-![](images/examples/cc.png)
+![](images/examples/cc.png)  
 **Strongly connected components**:  
-![](images/examples/scc.png)
+![](images/examples/scc.png)  
 **Biconnected components**:  
-![](images/examples/bcc.png)
+![](images/examples/bcc.png)  
 
 # Figures of pgRouting Sample Data
 **Connected components**:  
-![](images/pgrSample/cc.png)
+![](images/pgrSample/cc.png)  
 **Strongly connected components**:  
-![](images/pgrSample/scc.png)
+![](images/pgrSample/scc.png)  
 **Biconnected components**:  
-![](images/pgrSample/bcc.png)
+![](images/pgrSample/bcc.png)  
