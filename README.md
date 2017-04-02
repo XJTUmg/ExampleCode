@@ -22,11 +22,11 @@ Then, run it.
 
 # Figures of examples
 **Connected components**:  
-![](images/examples/cc.png)  
+<img src="/images/examples/cc.png" width="335" height="335" />
 **Strongly connected components**:  
-![](images/examples/scc.png)  
+<img src="/images/examples/scc.png" width="442" height="359" />
 **Biconnected components**:  
-![](images/examples/bcc.png)  
+<img src="/images/examples/bcc.png" width="232" height="356" />
 
 # Figures of pgRouting Sample Data
 **Connected components**:  
