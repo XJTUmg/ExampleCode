@@ -16,7 +16,34 @@ Then, run it.
 
 # Read more
 
-[ConnectedComponents](http://www.boost.org/doc/libs/1_46_0/libs/graph/doc/connected_components.html)  
-[StronglyConnectedComponents](http://www.boost.org/doc/libs/1_46_0/libs/graph/doc/strong_components.html)  
-[BiconnectedComponents](http://www.boost.org/doc/libs/1_46_0/libs/graph/doc/biconnected_components.html)  
+[Connected Components](http://www.boost.org/doc/libs/1_46_0/libs/graph/doc/connected_components.html)  
+[Strongly Connected Components](http://www.boost.org/doc/libs/1_46_0/libs/graph/doc/strong_components.html)  
+[Biconnected Components](http://www.boost.org/doc/libs/1_46_0/libs/graph/doc/biconnected_components.html)  
 
+# Figures of examples
+**Connected components**:  
+<dev align = "left">
+	<img src="/images/examples/cc.png" "height"=669 width="670">
+</dev>
+**Strongly connected components**:  
+<dev align = "left">
+	<img src="/images/examples/scc.png" "height"=758 width="885">
+</dev>
+**Biconnected components**:  
+<dev align = "left">
+	<img src="/images/examples/bcc.png" "height"=712 width="464">
+</dev>
+
+# Figures of pgRouting Sample Data
+**Connected components**:  
+<dev align = "left">
+	<img src="/images/pgrSample/cc.png" "height"=658 width="1059">
+</dev>
+**Strongly connected components**:  
+<dev align = "left">
+	<img src="/images/pgrSample/scc.png" "height"=648 width="1158">
+</dev>
+**Biconnected components**:  
+<dev align = "left">
+	<img src="/images/pgrSample/bcc.png" "height"=637 width="1119">
+</dev>
