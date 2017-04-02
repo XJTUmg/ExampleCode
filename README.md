@@ -22,28 +22,16 @@ Then, run it.
 
 # Figures of examples
 **Connected components**:  
-<dev align = "left">
-	<img src="/images/examples/cc.png" "height"=669 width="670">
-</dev>
+![](images/examples/cc.png)
 **Strongly connected components**:  
-<dev align = "left">
-	<img src="/images/examples/scc.png" "height"=758 width="885">
-</dev>
+![](images/examples/scc.png)
 **Biconnected components**:  
-<dev align = "left">
-	<img src="/images/examples/bcc.png" "height"=712 width="464">
-</dev>
+![](images/examples/bcc.png)
 
 # Figures of pgRouting Sample Data
 **Connected components**:  
-<dev align = "left">
-	<img src="/images/pgrSample/cc.png" "height"=658 width="1059">
-</dev>
+![](images/pgrSample/cc.png)
 **Strongly connected components**:  
-<dev align = "left">
-	<img src="/images/pgrSample/scc.png" "height"=648 width="1158">
-</dev>
+![](images/pgrSample/scc.png)
 **Biconnected components**:  
-<dev align = "left">
-	<img src="/images/pgrSample/bcc.png" "height"=637 width="1119">
-</dev>
+![](images/pgrSample/bcc.png)
