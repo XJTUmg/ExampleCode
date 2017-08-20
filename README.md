@@ -35,3 +35,8 @@ Then, run it.
 ![](images/pgrSample/scc.png)  
 **Biconnected components**:  
 ![](images/pgrSample/bcc.png)  
+**Articulation Points**:
+![](images/pgrSample/ap.png)
+**Bridges**:
+![](images/pgrSample/bri.png)
+
