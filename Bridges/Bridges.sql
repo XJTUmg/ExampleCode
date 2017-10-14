@@ -8,14 +8,13 @@ CREATE TABLE edge_table (
 );
 
 INSERT INTO edge_table (
-	source, target
+	source, target, 
 	cost, reverse_cost) VALUES
 (0, 1, 1, 1), (1, 2, 1, 1),
 (0, 2, 1, 1), (2, 3, 1, 1),
 (2, 4, 1, 1), (3, 4, 1, 1),
-(5, 6, 1, 1), (6, 7, 1, 1),
-(8, 9, 1, 1), (9, 10, 1, 1),
-(10, 8, 1, 1);
+(0, 8, 1, 1), (8, 9, 1, 1), 
+(9, 10, 1, 1), (10, 8, 1, 1);
 
 SELECT * FROM pgr_bridges (
 	'SELECT id, source, target, cost, reverse_cost FROM edge_table');
@@ -24,7 +23,6 @@ SELECT * FROM pgr_bridges (
  seq | edge 
 -----+------
    1 |    7
-   2 |    8
-(2 rows)
+(1 rows)
 *************************************/
 
