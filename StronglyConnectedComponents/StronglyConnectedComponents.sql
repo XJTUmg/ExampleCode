@@ -19,16 +19,15 @@ SELECT * FROM pgr_strongComponents (
 	'SELECT id, source, target, cost, reverse_cost FROM edge_table');
 
 /*************OUTPUT******************
- seq | node_seq | node | scc 
------+----------+------+-----
-   1 |        1 |    1 |   1 
-   2 |        2 |    2 |   1 
-   3 |        3 |    4 |   1 
-   4 |        1 |    0 |   2 
-   5 |        1 |    6 |   3 
-   6 |        1 |    5 |   4 
-   7 |        1 |    3 |   5
+ seq | component | n_seq | node 
+-----+-----------+-------+------
+   1 |         0 |     1 |    0
+   2 |         1 |     1 |    1
+   3 |         1 |     2 |    2
+   4 |         1 |     3 |    4
+   5 |         3 |     1 |    3
+   6 |         5 |     1 |    5
+   7 |         6 |     1 |    6
 (7 rows)
-
 *************************************/
 
