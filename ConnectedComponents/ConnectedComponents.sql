@@ -18,14 +18,14 @@ SELECT * FROM pgr_connectedComponents (
 	'SELECT id, source, target, cost, reverse_cost FROM edge_table');
 
 /*************OUTPUT******************
- seq | node_seq | node | component 
------+----------+------+-----------
-   1 |        1 |    0 |         1 
-   2 |        2 |    1 |         1 
-   3 |        3 |    4 |         1 
-   4 |        1 |    2 |         2 
-   5 |        2 |    5 |         2 
-   6 |        1 |    3 |         3 
+ seq | component | n_seq | node 
+-----+-----------+-------+------
+   1 |         0 |     1 |    0
+   2 |         0 |     2 |    1
+   3 |         0 |     3 |    4
+   4 |         2 |     1 |    2
+   5 |         2 |     2 |    5
+   6 |         3 |     1 |    3
 (6 rows)
 *************************************/
 
