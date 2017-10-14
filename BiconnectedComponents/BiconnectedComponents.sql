@@ -8,7 +8,7 @@ CREATE TABLE edge_table (
 );
 
 INSERT INTO edge_table (
-	source, target
+	source, target,
 	cost, reverse_cost) VALUES
 (0, 1, 1, 1), (1, 2, 1, 1),
 (0, 2, 1, 1), (2, 3, 1, 1),
