@@ -19,6 +19,8 @@ Then, run it.
 [Connected Components](http://www.boost.org/doc/libs/1_46_0/libs/graph/doc/connected_components.html)  
 [Strongly Connected Components](http://www.boost.org/doc/libs/1_46_0/libs/graph/doc/strong_components.html)  
 [Biconnected Components](http://www.boost.org/doc/libs/1_46_0/libs/graph/doc/biconnected_components.html)  
+[Articulation Points](http://www.boost.org/doc/libs/1_46_0/libs/graph/doc/biconnected_components.html#sec:articulation_points)  
+[Bridges](https://en.wikipedia.org/wiki/Bridge_(graph_theory))  
 
 # Figures of examples
 **Connected components**:  
@@ -27,6 +29,10 @@ Then, run it.
 <img src="/images/examples/scc.png" width="442" height="359" />  
 **Biconnected components**:  
 <img src="/images/examples/bcc.png" width="232" height="356" />  
+**Articulation Points**:  
+<img src="/images/examples/ap.png" width="232" height="356" />  
+**Bridges**:  
+<img src="/images/examples/bri.png" width="226" height="303" />  
 
 # Figures of pgRouting Sample Data
 **Connected components**:  
