@@ -54,6 +54,7 @@ int dist[maxV];
 int pre[maxV], preEdgeNum[maxV];
 bool vis[maxV];
 
+// SPFA algorithm for minimum-cost flow
 bool SPFA(int source, int target) {
     for (int i = 0; i < numV + 2; i++)
         dist[i] = INF, vis[i] = 0;
@@ -81,7 +82,7 @@ bool SPFA(int source, int target) {
     return dist[target] != INF;
 }
 
-int MCMF(int source, int target, int &maxFlow) {
+int MinimumCostFlow(int source, int target, int &maxFlow) {
     int res = 0;
     maxFlow = 0;
     while (SPFA(source, target)) {
@@ -102,6 +103,7 @@ int MCMF(int source, int target, int &maxFlow) {
 }
 
 vector <int> ans;
+// get euler tour
 void DfsEulerTour(int u) {
     for (size_t i = 0; i < edgesGraph[u].size(); i++) {
         if (!edgesGraph[u][i].vis) {
@@ -116,6 +118,7 @@ int deg[maxV];
 
 int main() {
     int res = 0;
+    // input the graph
     cin >> numV >> numE;
     for (int i = 0; i < numE; i++) {
         int u, v, c;
@@ -126,6 +129,7 @@ int main() {
         deg[u]++, deg[v]--;
     }
 
+    // initial work
     int totDeg = 0;
     for (int i = 0; i < numV; i++) {
         if (deg[i] < 0) 
@@ -135,8 +139,12 @@ int main() {
             totDeg += deg[i];
         }
     }
+
+    // minimum-cost flow
     int maxFlow = 0;
-    res += MCMF(numV, numV + 1, maxFlow);
+    res += MinimumCostFlow(numV, numV + 1, maxFlow);
+
+    // cornor case & output result
     if (maxFlow == totDeg)
         cout << res << endl;
     else {
@@ -144,6 +152,7 @@ int main() {
         return 0;
     }
 
+    // add duplicate edges
     for (int u = 0; u < numV; u++)
         for (size_t i = 0; i < edgesNet[u].size(); i++) {
             if (edgesNet[u][i].origin) {
@@ -151,6 +160,8 @@ int main() {
                     AddEdgeGraph(u, edgesNet[u][i].to, edgesNet[u][i].cost);
             }
         }
+
+    // output route
     DfsEulerTour(0);
     for (int i = ans.size() - 1; i >= 0; i--)
         cout << ans[i] << (i > 0 ? "->" : "\n");
